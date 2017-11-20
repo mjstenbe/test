@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Kekstitehdas {
+
+	public static void main(String[] args) {
+
+		int luku = 10;
+		Scanner lukija = new Scanner(System.in);
+		String nimi = "Mika";
+		
+		
+		Keksi MikanKeksi = new Keksi();
+		
+		MikanKeksi.paino = 10;
+		MikanKeksi.nimi = "Domino";
+
+		System.out.println( MikanKeksi );
+		
+		
+		
+
+	}
+
+}

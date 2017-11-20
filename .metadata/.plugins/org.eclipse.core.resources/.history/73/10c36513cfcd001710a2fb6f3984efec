@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class PIN {
+
+	public static void main(String[] args) {
+
+		// Tee ohjelma, joka kysyy käyttäjältä PIN-koodia. Kyselyä toistetaan
+		// kunnes oikea luku (3120) osuu kohdalle. Käytä tehtävässä do – while
+		// tai while - toistorakennetta.
+
+		Scanner lukija = new Scanner(System.in);
+		int luku = 0;
+
+		do {
+
+			System.out.print("Anna PIN: ");
+			luku = lukija.nextInt();
+		
+			if (luku != 3210) {
+				System.out.println("Virheellinen PIN!");
+			}
+
+		} while (luku != 3210);
+	}
+
+}

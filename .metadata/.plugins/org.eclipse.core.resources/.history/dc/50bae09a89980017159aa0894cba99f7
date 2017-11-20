@@ -1,0 +1,16 @@
+
+public class Keksi {
+
+	private String nimi ;
+	private int paino;
+	private String valmistuspvm;
+
+	
+	public void setPaino(int uusiPaino){
+		paino = uusiPaino;
+	}
+	
+	public int getPaino(){
+		return paino;
+	}
+}

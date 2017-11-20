@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<form action="OmaServlet" class="basic-grey">
+		Firstname: <input name="firstName" /> <br/>
+		Lastname: <input name="lastName" /> <br/>
+		Email: <input name="email" /> <br/>
+		<input type="submit" value="Sendme"/>
+
+	</form>
+</body>
+</html>

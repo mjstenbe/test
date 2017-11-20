@@ -1,0 +1,24 @@
+
+public class Karkausvuosi {
+
+	public static void main(String[] args) {
+
+		// Karkausvuosia ovat kaikki 400:lla jaolliset vuodet
+
+		int vuosi = 0;
+		Scanner lukija = new Scanner(System.in);
+		
+		if (vuosi % 400 == 0){
+			System.out.println("Oli karkausvuosi!");
+		}
+		
+		// 4:llä jaollisista vuosista ne, jotka eivät ole 100:lla jaollisia.
+
+			if (vuosi % 4 == 0 && vuosi % 100 != 0){
+				System.out.println("Oli korkeusvuosi!");
+			}
+		// Tee ohjelma, joka tarkistaa, onko syötetty vuosi karkausvuosi.
+
+	}
+
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Kekstitehdas {
+
+	public static void main(String[] args) {
+
+		int luku = 10;
+		Scanner lukija = new Scanner(System.in);
+		String nimi = "Mika";
+		
+		
+		Keksi MikanKeksi = new Keksi();
+		Keksi MaijanKeksi = new Keksi("Oreo");
+		Keksi MaijanKeksi = new Keksi("Domino");
+		
+		MikanKeksi.getPaino();
+		MikanKeksi.setPaino(50);
+
+		System.out.println( MikanKeksi );
+		
+		
+		
+
+	}
+
+}

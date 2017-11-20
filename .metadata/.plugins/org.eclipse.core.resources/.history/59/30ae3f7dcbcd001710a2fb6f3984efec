@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Vertailua {
+
+	public static void main(String[] args) {
+
+		// • Jos ikä on pienempi kuin 0 tai suurempi kuin 150, tulostetaan
+		// ”Virheellinen ikä!”
+		// • Jos ikä on alle 6 tulostetaan ”Esikoululainen”
+		// • Jos ikä on tasan 14 tulostetaan ”Haastava ikä”
+		// • Jos ikä on 16 - 18 tulostetaan ”Lähes aikuinen”
+		// • Jos ikä on suurempi kuin 18, mutta pienempi kuin 30
+		// tulostetaan,”Olet täysi-ikäinen, muttet vielä keski-iän kriisissä”.
+		// • Jos ikä on suurempi tai yhtä suuri kuin 30, mutta pienempi kuin 45
+		// tulostetaan:
+		// ”Olet keski-iässä”
+		// • Jos ikä on suurempi kuin 45 mutta alle 65 tulostetaan ”Vielä ehtii
+		// ennen eläkettä!”
+		// • Muuten ohjelma tulostaa ”Olet eläkeläinen”.
+
+		Scanner lukija = new Scanner(System.in);
+		int ikä = 0;
+
+		System.out.println("Kuinka vanha olet: ");
+		ikä = lukija.nextInt();
+
+	}
+
+}

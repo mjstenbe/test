@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Users\miksten\Desktop\eclipse\Java" version="1.8.0_131">
+<bootpath>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\resources.jar"/>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\rt.jar"/>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\jsse.jar"/>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\jce.jar"/>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\charsets.jar"/>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\jfr.jar"/>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\ext"/>
+<entry path="C:\windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\miksten\Desktop\eclipse\Java\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

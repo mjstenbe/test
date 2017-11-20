@@ -1,0 +1,27 @@
+public class Overiksi {
+	
+	public static void main(String[] args) {
+		
+		int[] taulu = new int[10];
+		
+		
+			for (int i = 0; i < 15; i++)
+				System.out.println(taulu[i]);
+		
+																		// halutaan,
+																		// voidaan
+																		// muuttujaan
+																		// e
+																		// napattua
+																		// poikkeusta
+																		// //
+																		// tutkia
+																		// tarkemmin,
+																		// tai
+																		// se
+																		// voidaan
+																		// tulostaa
+			System.out.println(e);
+		}
+	}
+}

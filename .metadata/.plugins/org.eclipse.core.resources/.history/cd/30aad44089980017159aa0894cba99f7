@@ -1,0 +1,8 @@
+
+public class Keksi {
+
+	private String nimi ;
+	private int paino;
+	private String valmistuspvm;
+	
+}

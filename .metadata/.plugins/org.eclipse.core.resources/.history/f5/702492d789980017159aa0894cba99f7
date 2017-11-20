@@ -1,0 +1,18 @@
+
+public class Keksi {
+
+	private String nimi;
+	private int paino;
+	private String valmistuspvm;
+
+	public void setPaino(int uusiPaino) {
+		if (uusiPaino > 0) {
+			paino = uusiPaino;
+		} else
+			paino = 15;
+	}
+
+	public int getPaino() {
+		return paino;
+	}
+}

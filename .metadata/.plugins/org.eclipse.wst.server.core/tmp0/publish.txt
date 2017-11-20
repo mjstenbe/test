@@ -1,0 +1,3 @@
+#GlassFish 3
+#Wed Nov 15 18:21:49 EET 2017
+org.eclipse.jst.jee.server\:JEEDemoProjekti=C\:\\Users\\miksten\\Downloads\\glassfish-4.0\\glassfish4\\glassfish\\domains\\domain1\\eclipseApps\\JEEDemoProjekti

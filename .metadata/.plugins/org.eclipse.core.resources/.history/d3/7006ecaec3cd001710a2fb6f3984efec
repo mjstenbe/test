@@ -1,0 +1,16 @@
+
+public class Toistolauseita {
+
+	public static void main(String[] args) {
+
+		int laskuri = 0;
+		
+		while(lasku < 10){
+		
+		System.out.println("Hoi Maailma!");
+		}
+		
+
+	}
+
+}

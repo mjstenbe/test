@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>Hae tietokannasta</p>
+	<form action="database_button.jsp">
+		Title: <input name="title" /> <br /> 
+		Author: <input name="author" />
+		<br /> <input type="submit" value="Search" />
+	</form>
+</body>
+</html>
